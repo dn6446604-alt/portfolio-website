@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepanshu — Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">D<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <p class="hero-eyebrow">Frontend Developer</p>
+      <h1>Crafting digital<br/><em>experiences</em> that<br/>matter.</h1>
+      <p class="hero-desc">I build clean, fast, and responsive websites. Turning ideas into polished web products with HTML, CSS & JavaScript.</p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="cta-primary">See My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="cta-ghost">Let's Talk</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>1+</strong><span>Year Learning</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>3+</strong><span>Projects Built</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>4</strong><span>Core Skills</span></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="photo-frame">
+        <img src="profile.jpeg" alt="Deepanshu" />
+        <div class="frame-accent top-left"></div>
+        <div class="frame-accent bottom-right"></div>
+      </div>
+      <div class="floating-tag tag-1"><i class="fab fa-html5"></i> HTML5</div>
+      <div class="floating-tag tag-2"><i class="fab fa-css3-alt"></i> CSS3</div>
+      <div class="floating-tag tag-3"><i class="fab fa-js"></i> JavaScript</div>
+    </div>
+    <div class="hero-scroll"><span></span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-img-col">
+        <div class="about-photo-wrap">
+          <img src="profile.jpeg" alt="Deepanshu" />
+          <div class="about-badge"><i class="fas fa-code"></i><span>Open to Work</span></div>
+        </div>
+      </div>
+      <div class="about-text-col">
+        <p class="label">About Me</p>
+        <h2>A developer who cares about the details.</h2>
+        <p>I'm Deepanshu, a passionate web developer currently in my second year of Diploma. I enjoy building modern, responsive websites that are both functional and visually refined.</p>
+        <p>I believe great web experiences come from clean code, thoughtful design, and continuous learning — and I bring all three to every project.</p>
+        <div class="about-pills">
+          <span><i class="fas fa-graduation-cap"></i> Diploma — 3rd Year</span>
+          <span><i class="fas fa-map-marker-alt"></i> India</span>
+          <span><i class="fas fa-laptop-code"></i> Frontend Dev</span>
+          <span><i class="fas fa-seedling"></i> Always Learning</span>
+          
+        </div>
+        <a href="CV.pdf" class="cta-primary">Download CV <i class="fas fa-download"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container col">
+      <p class="label center">Skills</p>
+      <h2 class="center">What I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon html"><i class="fab fa-html5"></i></div>
+            <div>
+              <p class="skill-name">HTML5</p>
+              <p class="skill-level">Advanced</p>
+            </div>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-track"><div class="skill-bar" data-w="85"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon css"><i class="fab fa-css3-alt"></i></div>
+            <div>
+              <p class="skill-name">CSS3</p>
+              <p class="skill-level">Intermediate</p>
+            </div>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-track"><div class="skill-bar" data-w="75"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon js"><i class="fab fa-js"></i></div>
+            <div>
+              <p class="skill-name">JavaScript</p>
+              <p class="skill-level">Beginner</p>
+            </div>
+            <span class="skill-pct">40%</span>
+          </div>
+          <div class="skill-track"><div class="skill-bar" data-w="40"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon rwd"><i class="fas fa-mobile-alt"></i></div>
+            <div>
+              <p class="skill-name">Responsive Design</p>
+              <p class="skill-level">Intermediate</p>
+            </div>
+            <span class="skill-pct">70%</span>
+          </div>
+          <div class="skill-track"><div class="skill-bar" data-w="70"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container col">
+      <p class="label center">Services</p>
+      <h2 class="center">What I can do for you</h2>
+      <div class="services-grid">
+        <div class="svc-card">
+          <div class="svc-num">01</div>
+          <div class="svc-icon"><i class="fas fa-pen-nib"></i></div>
+          <h3>Website Design</h3>
+          <p>Clean, modern layouts with beautiful typography and a sharp focus on user experience.</p>
+        </div>
+        <div class="svc-card featured">
+          <div class="svc-num">02</div>
+          <div class="svc-icon"><i class="fas fa-code"></i></div>
+          <h3>Frontend Development</h3>
+          <p>Responsive, fast-loading pages built with semantic HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="svc-card">
+          <div class="svc-num">03</div>
+          <div class="svc-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+          <h3>Responsive Layouts</h3>
+          <p>Pixel-perfect layouts that work flawlessly across all screen sizes and devices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container col">
+      <p class="label center">Portfolio</p>
+      <h2 class="center">Recent Work</h2>
+      <div class="work-grid">
+        <div class="work-card">
+          <div class="work-img">
+            <img src="profile.jpeg" alt="Personal Portfolio" />
+            <div class="work-hover">
+              <a href="#" class="work-link"><i class="fas fa-arrow-up-right-from-square"></i> View Project</a>
+            </div>
+          </div>
+          <div class="work-meta">
+            <div class="work-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3>Personal Portfolio Website</h3>
+            <p>A clean, responsive portfolio demonstrating core web development skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Voice Translater -->
+  <section class="Translater" id="Translater">
+    <div class="container col">
+      <div class="work-grid">
+        <div class="work-card">
+          <div class="work-img">
+            <img src="video translate.png" alt="Voice Translater" />
+            <div class="work-hover">
+              <a href="http://192.168.31.46:5000/" class="work-link"><i class="fas fa-arrow-up-right-from-square"></i> View Project</a>
+            </div>
+          </div>
+          <div class="work-meta">
+            <div class="work-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3>Video Translater</h3>
+            <p>A Video Translater that translate the any video in Indian languages</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container col">
+      <p class="label center">Contact</p>
+      <h2 class="center">Let's build something together</h2>
+      <p class="contact-sub">Have a project in mind or just want to say hello? My inbox is always open.</p>
+      <div class="contact-wrap">
+        <div class="contact-details">
+          <a href="mailto:dn6446604@example.com" class="contact-row">
+            <div class="c-icon"><i class="fas fa-envelope"></i></div>
+            <div><p class="c-label">Email</p><p class="c-val">dn6446604@example.com</p></div>
+            <i class="fas fa-chevron-right c-arrow"></i>
+          </a>
+          <a href="tel:+91 96717-94500" class="contact-row">
+            <div class="c-icon"><i class="fas fa-phone"></i></div>
+            <div><p class="c-label">Phone</p><p class="c-val">+91 96717-94500</p></div>
+            <i class="fas fa-chevron-right c-arrow"></i>
+          </a>
+          <div class="contact-row no-link">
+            <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div><p class="c-label">Location</p><p class="c-val">India</p></div>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="cta-primary form-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-logo">D<span>.</span></p>
+      <p class="footer-copy">© 2026 Deepanshu. Crafted with care.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/dn6446604-alt" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/deepanshu-namdev-306930383?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/DeepanshuN48419" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
